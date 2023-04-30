@@ -1,0 +1,55 @@
+.landing-section {
+  height: 750px;
+  background: linear-gradient(to top, white 59%, #ffbf5f 41%);
+  .heading-container {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: "Playfair Display ";
+    margin: 193px 0px 0px 90px;
+    line-height: 150%;
+    .title-icon {
+      position: absolute;
+      margin-left: -25px;
+    }
+    .line2 {
+      max-width: 770px;
+    }
+  }
+    .details-container {
+      display: flex;
+      margin-top: 47px;
+      margin-left: 90px;
+      gap: 20%;
+      .detail-buttons {
+        display: flex;
+        height: 70px;
+        .work-button {
+          font-weight: 700;
+          font-size: 20px;
+          justify-content: center;
+          align-items: center;
+          padding: 20px 60px;
+          border: 1px solid #000000;
+          border-radius: 12px;
+          background-color: unset;
+          height: fit-content;
+          cursor: pointer;
+        }
+        .contact-button {
+          margin-left: 60px;
+          font-weight: 700;
+          font-size: 20px;
+          border: none;
+          background-color: unset;
+          cursor: pointer;
+        }
+      }
+      .description {
+        font-weight: 400;
+        font-size: 20px;
+        max-width: 480px;
+        line-height: 150%;
+        margin-top: 85px;
+      }
+  }
+}

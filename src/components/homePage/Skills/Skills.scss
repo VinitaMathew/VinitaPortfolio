@@ -1,0 +1,31 @@
+.skills-container {
+  padding: 0px 15px;
+  margin-top: 110px;
+  .skills-heading {
+    font-family: "Playfair Display ";
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    &:after {
+      background: #ffbf5f;
+      content: "";
+      height: 10px;
+      left: 0;
+      margin-top: 70px;
+      position: absolute;
+      width: 72px;
+    }
+  }
+  .skills-carousel-container {
+    display: flex;
+    gap: 10%;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .skills-container {
+    .skills-carousel-container {
+      flex-direction: column;
+    }
+  }
+}
