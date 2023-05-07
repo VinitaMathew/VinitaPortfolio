@@ -1,6 +1,5 @@
 .skills-carousel-wrapper {
-  height: 645px;
-  width: 565px;
+  width: 100%;
   margin-top: 80px;
   .react-stacked-center-carousel-slide--3,
   .react-stacked-center-carousel-slide-3 {
@@ -31,6 +30,7 @@
     text-align: center;
     background-color: grey;
     border-radius: 27px;
+    width: 100%;
     .slide-title {
       position: absolute;
       top: 80%;
@@ -41,29 +41,12 @@
       font-size: 20px;
     }
   }
-  // .carousel-button-wrapper {
-  //   display: flex;
-  //   gap: 25px;
-  //   position: absolute;
-  //   top: 85%;
-  //   left: 48%;
-  //   .carousel-left-button {
-  //     border: 1px solid white;
-  //     border-radius: 50%;
-  //     width: 33px;
-  //     height: 33px;
-  //     text-align: center;
-  //     font-size: 22px;
-  //     cursor: pointer;
-  //   }
-  //   .carousel-right-button {
-  //     border: 1px solid white;
-  //     border-radius: 50%;
-  //     width: 33px;
-  //     height: 33px;
-  //     text-align: center;
-  //     font-size: 22px;
-  //     cursor: pointer;
-  //   }
-  // }
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-carousel-wrapper{
+    .my-slide-component{
+      //width: 60%;
+    }
+  }
 }
