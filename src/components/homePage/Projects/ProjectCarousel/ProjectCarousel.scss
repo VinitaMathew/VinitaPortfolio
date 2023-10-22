@@ -1,0 +1,30 @@
+.carousel-container {
+  margin: 0 auto;
+  .react-multiple-carousel__arrow {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    margin-bottom: 50px;
+    min-width: 40px;
+    min-height: 40px;
+    &::before {
+      color: black;
+    }
+  }
+}
+
+.slide-item {
+  margin-right: 20px; /* Adjust this value to set the gap between slides */
+}
+
+@media only screen and (max-width: 1024px) {
+  .carousel-container {
+    .react-multiple-carousel__arrow {
+      min-width: 32px;
+      min-height: 32px;
+      &::before {
+        font-size: 14px;
+      }
+    }
+  }
+}

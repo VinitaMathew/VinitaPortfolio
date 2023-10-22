@@ -6,107 +6,15 @@
     font-weight: 700;
     font-size: 40px;
     position: relative;
-    &:after {
-      background: #ffbf5f;
+    margin-left: 20px;
+    &:before {
+      border-left: 8px solid #ffbf5f;
+      bottom: 0;
       content: "";
-      height: 10px;
-      left: 0;
-      margin-top: 70px;
+      height: 38px;
+      left: -25px;
       position: absolute;
-      width: 72px;
-    }
-  }
-  .projects-list-wrapper {
-    margin-top: 67px;
-    display: flex;
-    .projects-one-two {
-      .project-one {
-        width: 785px;
-        height: 321px;
-        background: #5fb2ff;
-        border-radius: 16px;
-        margin: 0px 32px 32px 0px;
-      }
-      .project-two {
-        height: 321px;
-        width: 785px;
-        background: #ff7b5f;
-        border-radius: 16px;
-      }
-    }
-    .project-three {
-      width: 430px;
-      height: 672px;
-      background: #5f82ff;
-      border-radius: 16px;
-    }
-    .project-one,
-    .project-two,
-    .project-three {
-      position: relative;
-      overflow: hidden;
-      transition: all 0.35s ease;
-      z-index: 0;
-      &:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: -90px;
-        right: -90px;
-        background: #414141;
-        height: 100px;
-        width: 100px;
-        border-radius: 32px;
-        transform: scale(1);
-        transform-origin: 50% 50%;
-        transition: transform 0.4s ease-out;
-      }
-
-      &:after {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: -40px;
-        right: -40px;
-        background: #616161;
-        height: 50px;
-        width: 50px;
-        border-radius: 32px;
-        transform: scale(1);
-        transform-origin: 50% 50%;
-        transition: transform 0.4s ease-out;
-      }
-      &:hover:after {
-        transform: scale(7);
-      }
-
-      &:hover:before {
-        transform: scale(21);
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .projects-container {
-    .projects-list-wrapper {
-      display: block;
-      .projects-one-two {
-        .project-one {
-          width: unset;
-          height: 321px;
-          margin: unset;
-        }
-        .project-two {
-          height: 321px;
-          width: unset;
-          margin: 14px 0px;
-        }
-      }
-      .project-three {
-        width: unset;
-        height: 321px;
-      }
+      top: 2%;
     }
   }
 }

@@ -4,11 +4,11 @@ import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import "./HomePage.scss";
 
-export default function HomePage() {
+export default function HomePage(props: any) {
   return (
     <div className="home-page">
-      <LandingSection />
-      <Projects />
+      <LandingSection workClick={props.workClick} />
+      <Projects ref={props.projectRef} />
       <Skills />
     </div>
   );
