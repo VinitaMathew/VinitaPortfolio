@@ -2,15 +2,15 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./ProjectCarousel.scss";
+import { carouselData } from "./ProjectCarouselData";
 
-// const image1 = require("../../../../../../assets/persona-image1.png");
-// const image2 = require("../../../../../../assets/persona-image2.png");
+const arrowImg = require("../../../../assets/arrow-right.png");
 
 const ProjectCarousel = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 1.26,
+      items: 2.11,
       partialVisibilityGutter: 100, // Adjust this value to control the amount of next and previous images shown
     },
     tablet: {
@@ -25,16 +25,28 @@ const ProjectCarousel = () => {
     },
   };
 
-  const slides = [{
-    title: "Protfolio"
-  }, {title: "Resturant"}];
-
   return (
-    <Carousel responsive={responsive} containerClass="carousel-container">
-      {slides.map((slide, index) => (
-        <div key={index} className="slide-item">
-          {/* <img src={image} alt={`Carousel ${index + 1}`} /> */}
-        {slide.title}
+    <Carousel
+      renderArrowsWhenDisabled={true}
+      responsive={responsive}
+      containerClass="carousel-container"
+    >
+      {carouselData.map((slide, index) => (
+        <div
+          key={index}
+          className="slide-item"
+          style={{ background: slide.backgroundColor }}
+        >
+          <img
+            className="projectThumbnail"
+            src={slide.imageUrl}
+            alt={`Carousel ${index + 1}`}
+          />
+          <div className="contentWrapper">
+            <h5>{slide.title}</h5>
+            <div>{slide.content}</div>
+            <a href={slide.link} target="_blank">Live link <img className="arrow" src={arrowImg} alt=""></img></a>
+          </div>
         </div>
       ))}
     </Carousel>
