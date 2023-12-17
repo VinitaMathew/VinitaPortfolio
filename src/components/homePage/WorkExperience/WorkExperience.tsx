@@ -1,5 +1,6 @@
 import React from "react";
 import "./WorkExperience.scss";
+import { calculateExperience } from "../../../utils";
 
 export default function WorkExperience() {
   return (
@@ -10,7 +11,7 @@ export default function WorkExperience() {
           <h4>
             <b>Front End Developer at Tata Consultancy Services</b>
           </h4>
-          <span>September 2020 — Present (3 years)</span>
+          <span>September 2020 — Present ({calculateExperience()} years)</span>
         </div>
         <div>
           With more than three years of experience as a Front-End React
