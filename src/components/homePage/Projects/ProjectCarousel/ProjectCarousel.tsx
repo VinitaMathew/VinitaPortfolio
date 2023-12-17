@@ -10,7 +10,7 @@ const ProjectCarousel = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 2.11,
+      items: 2.13,
       partialVisibilityGutter: 100, // Adjust this value to control the amount of next and previous images shown
     },
     tablet: {

@@ -1,0 +1,11 @@
+.work-container {
+  margin-top: 36px;
+  .work-wrapper {
+    font-size: 18px;
+    .work-heading-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
