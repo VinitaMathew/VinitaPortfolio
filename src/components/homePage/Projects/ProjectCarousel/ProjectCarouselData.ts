@@ -5,14 +5,14 @@ const BrightSmilesImage = require("../../../../assets/bright-smiles.png");
 export const carouselData = [
   {
     imageUrl: PortfolioImage,
-    title: "PortfolioProject",
+    title: "Portfolio",
     content: "Portfolio website for  UI/UX Designer",
     link: "https://nishaduxd.com/",
     backgroundColor: "#d7e7ff",
   },
   {
     imageUrl: TagImage,
-    title: "TagProject",
+    title: "Tag",
     content:
       "Tag is a food and beverage solutions provider with their head office in UAE. ",
     link: "https://vinitamathew.github.io/tag/#/",

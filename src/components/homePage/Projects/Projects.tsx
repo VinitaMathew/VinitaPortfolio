@@ -5,9 +5,9 @@ import "./Projects.scss";
 const Projects = React.forwardRef((props, projectsRef: any) => {
   return (
     <div className="projects-container" ref={projectsRef}>
-      <div className="projects-heading">Projects I’ve worked on</div>
+      <h2 className="section-heading">Projects I’ve worked on</h2>
       <div className="projects-list-wrapper">
-        <ProjectCarousel/>
+        <ProjectCarousel />
       </div>
     </div>
   );

@@ -1,22 +1,21 @@
 import React from "react";
-import SkillsCarousel from "./SkillsCarousel/SkillsCarousel";
+import { skillsData } from "./SkillsData";
 import "./Skills.scss";
 
 export default function Skills() {
-    return (
-      <div className="skills-container">
-        <div className="skills-heading">Skill Sets</div>
-        <div className="skills-carousel-container">
-          {/* <SkillsCarousel />
-          <SkillsCarousel /> */}
-        </div>
-        <div className="projects-list-wrapper">
-          <div className="projects-one-two">
-            <div className="project-one">Project 1</div>
-            <div className="project-two">Project 2</div>
-          </div>
-          <div className="project-three">Project 3</div>
-        </div>
-      </div>
-    );
+  return (
+    <div className="skills-container">
+      <h2 className="section-heading">Skills and Services</h2>
+        <ul className="skills-wrapper">
+            {skillsData.map((skill,index)=>{
+                return (
+                  <li key={index} className="skill-item">
+                    <img src={skill.image} alt="" className="image"/>
+                    <div className="title">{skill.title}</div>
+                  </li>
+                );
+            })}
+        </ul>
+    </div>
+  );
 }
