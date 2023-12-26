@@ -21,7 +21,10 @@ const Contact = React.forwardRef((props, contactRef: any) => {
           </div>
           <div className="links-wrapper">
             <img src={LinkedinIcon} alt=""></img>
-            <a href="https://www.linkedin.com/in/vinita-mathew-6b3255187/">
+            <a
+              href="https://www.linkedin.com/in/vinita-mathew-6b3255187/"
+              target="_blank"
+            >
               Vinita Mathew
             </a>
           </div>
