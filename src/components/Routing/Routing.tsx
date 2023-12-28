@@ -76,7 +76,7 @@ export default function Routing() {
             onClick={scrollToTop}
             style={{ display: showButton ? "block" : "none" }}
           >
-            <img src={BackToTopIcon} alt="scroll to top"/>
+            <img src={BackToTopIcon} alt="scroll to top" />
           </button>
           <Footer />
         </div>

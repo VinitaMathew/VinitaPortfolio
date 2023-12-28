@@ -1,0 +1,34 @@
+.modalContainer {
+  .cancelButton {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: none;
+    float: right;
+    margin: 30px;
+    cursor: pointer;
+  }
+  .popup-content {
+    font-size: 18px;
+    padding-inline: 100px;
+    margin-top: 84px;
+    overflow-y: auto;
+    max-height: 634px;
+  }
+  .popup-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: unset;
+    border-radius: 10px;
+    background: none;
+  }
+  .popup-content::-webkit-scrollbar {
+    width: 10px;
+    background-color: none;
+  }
+
+  .popup-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #dfdfdf;
+  }
+}

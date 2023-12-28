@@ -12,9 +12,9 @@ export default function HomePage(props: any) {
     <div className="home-page">
       <LandingSection workClick={props.workClick} />
       <Projects ref={props.projectRef} />
+      <WorkExperience />
       <IndustryProjects />
       <Skills />
-      <WorkExperience />
       <Contact ref={props.contactRef} />
     </div>
   );

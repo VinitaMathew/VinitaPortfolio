@@ -18,8 +18,8 @@
       color: black;
     }
   }
-  .react-multiple-carousel__arrow:disabled{
-      cursor: not-allowed;
+  .react-multiple-carousel__arrow:disabled {
+    cursor: not-allowed;
   }
   .react-multiple-carousel__arrow--left {
     right: calc(4% + 65px);
@@ -61,6 +61,9 @@
       align-items: center;
       justify-content: center;
       bottom: 36px;
+      &:hover {
+        background: #494747;
+      }
       .arrow {
         width: 24px;
         height: 24px;
