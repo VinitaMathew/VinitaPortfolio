@@ -1,4 +1,4 @@
-const PortfolioImage = require("../../../../assets/bright-smiles.png");
+const PortfolioImage = require("../../../../assets/portfolio.png");
 const TagImage = require("../../../../assets/tag.png");
 const BrightSmilesImage = require("../../../../assets/bright-smiles.png");
 

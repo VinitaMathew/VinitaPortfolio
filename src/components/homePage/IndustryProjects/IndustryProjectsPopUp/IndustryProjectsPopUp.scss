@@ -12,10 +12,13 @@
   }
   .popup-content {
     font-size: 18px;
-    padding-inline: 100px;
-    margin-top: 84px;
+    padding-inline: 100px 45px;
+    margin-top: 97px;
     overflow-y: auto;
     max-height: 634px;
+    z-index: 1;
+    position: absolute;
+    margin-right: 54px;
   }
   .popup-content::-webkit-scrollbar-track {
     -webkit-box-shadow: unset;
