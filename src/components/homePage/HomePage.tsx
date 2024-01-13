@@ -10,7 +10,10 @@ import Contact from "./Contact/Contact";
 export default function HomePage(props: any) {
   return (
     <div className="home-page">
-      <LandingSection workClick={props.workClick} />
+      <LandingSection
+        workClick={props.workClick}
+        contactClick={props.contactClick}
+      />
       <Projects ref={props.projectRef} />
       <WorkExperience />
       <IndustryProjects />

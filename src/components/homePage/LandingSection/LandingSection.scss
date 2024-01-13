@@ -33,7 +33,7 @@
         padding: 20px 60px;
         border: 1px solid #000000;
         border-radius: 12px;
-        background-color: #D7E7FF;
+        background-color: #d7e7ff;
         border: none;
         height: fit-content;
         cursor: pointer;
@@ -56,11 +56,19 @@
     }
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1024px) {
   .landing-section {
+    background-image: none;
+    min-height: unset;
     .heading-container {
       width: 75%;
-      margin: 193px auto 90px;
+      margin: 35px 35px 20px 35px;
+      font-size: 18px;
+      line-height: 125%;
+      .title-icon {
+        margin-left: -15px;
+        width: 10px;
+      }
     }
     .details-container {
       flex-direction: column;
@@ -68,10 +76,19 @@
       margin: auto;
       .detail-buttons {
         flex-direction: column;
+        .work-button {
+          font-size: 16px;
+          padding: 12px 29px;
+        }
         .contact-button {
           margin-left: unset;
-          margin-top: 20px;
+          margin-top: 12px;
+          font-size: 16px;
         }
+      }
+      .description {
+        font-size: 12px;
+        margin-top: 24px;
       }
     }
   }

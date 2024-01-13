@@ -20,7 +20,9 @@ export default function LandingSection(props: any) {
           <button className="work-button" onClick={props.workClick}>
             View my work
           </button>
-          <button className="contact-button">Contact</button>
+          <button className="contact-button" onClick={props.contactClick}>
+            Contact
+          </button>
         </div>
         <div className="description">
           I'm a React developer who loves to make things look good and work

@@ -22,3 +22,19 @@
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .contact-container {
+    .contact-wrapper {
+      .links {
+        font-size: 18px;
+        .links-wrapper {
+          gap: 10px;
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
