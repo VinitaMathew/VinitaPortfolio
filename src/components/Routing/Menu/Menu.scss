@@ -95,10 +95,21 @@
     max-height: 20px;
     margin-left: 24px;
   }
+  .common-container {
+    .logoLink {
+      max-height: 35px;
+      position: absolute;
+      top: 43px;
+      left: 0px;
+    }
+    .mobile-wrapper-menu {
+      top: 43px;
+    }
+  }
   .menu-list {
     flex-direction: column;
     margin-top: 45px;
-    margin-left: -45px;
+    width: 100%;
     .nav-links {
       flex-direction: column;
       padding: unset;

@@ -3,8 +3,9 @@
   margin-bottom: 84px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 750px) {
   .projects-container {
     padding-top: 24px;
+    margin-bottom: unset;
   }
 }

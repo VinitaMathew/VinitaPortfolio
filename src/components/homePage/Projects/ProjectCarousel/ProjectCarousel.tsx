@@ -45,7 +45,9 @@ const ProjectCarousel = () => {
           <div className="contentWrapper">
             <h5>{slide.title}</h5>
             <div>{slide.content}</div>
-            <a href={slide.link} target="_blank">Live link <img className="arrow" src={arrowImg} alt=""></img></a>
+            <a href={slide.link} target="_blank">
+              Live link <img className="arrow" src={arrowImg} alt=""></img>
+            </a>
           </div>
         </div>
       ))}

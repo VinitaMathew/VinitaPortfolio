@@ -28,3 +28,22 @@
     }
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .skills-container {
+    .skills-wrapper {
+      margin-top: 38px;
+      gap: 15px;
+      .skill-item {
+        height: 210px;
+        margin: auto;
+        .image {
+          margin-block: 23px;
+        }
+        .title {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

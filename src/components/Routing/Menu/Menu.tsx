@@ -8,7 +8,7 @@ const CloseIcon = require("../../../assets/close-icon.png");
 
 export default function Menu(props: any) {
   const [isMobile] = useState(
-    window.matchMedia("only screen and (max-width:1024px)").matches
+    window.matchMedia("only screen and (max-width:750px)").matches
   );
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const location = useLocation();
@@ -60,7 +60,7 @@ export default function Menu(props: any) {
         <NavLink
           end
           to="/"
-          className="link"
+          className="logoLink"
           onClick={() => {
             handleMenuClick();
             window.scrollTo(0, 0);
@@ -120,7 +120,7 @@ export default function Menu(props: any) {
                   Work
                 </li>
               )}
-              <li
+              {/* <li
                 className="nav-link"
                 onClick={() => {
                   handleMenuClick();
@@ -130,7 +130,7 @@ export default function Menu(props: any) {
                 <NavLink to="/about" className="link">
                   About
                 </NavLink>
-              </li>
+              </li> */}
               {currentPath !== "" ? (
                 <li
                   className="nav-link"

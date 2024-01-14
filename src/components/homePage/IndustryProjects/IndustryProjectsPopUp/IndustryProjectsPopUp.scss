@@ -35,3 +35,20 @@
     background: #dfdfdf;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .modalContainer {
+    .cancelButton {
+      margin: 16px;
+      width: 25px;
+      height: 25px;
+      font-size: 14px;
+    }
+    .popup-content {
+      padding-inline: 20px 0px;
+      margin-right: 20px;
+      font-size: 12px;
+      margin-top: 50px;
+    }
+  }
+}

@@ -11,7 +11,7 @@ export default function Routing() {
   const ref = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
   const [isMobile] = useState(
-    window.matchMedia("only screen and (max-width:1024px)").matches
+    window.matchMedia("only screen and (max-width:750px)").matches
   );
   const [showButton, setShowButton] = useState(false);
 

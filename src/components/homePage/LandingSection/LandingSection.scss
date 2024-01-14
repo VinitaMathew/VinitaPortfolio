@@ -56,18 +56,18 @@
     }
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 750px) {
   .landing-section {
     background-image: none;
     min-height: unset;
     .heading-container {
       width: 75%;
       margin: 35px 35px 20px 35px;
-      font-size: 18px;
+      font-size: 28px;
       line-height: 125%;
       .title-icon {
-        margin-left: -15px;
-        width: 10px;
+        margin-left: -22px;
+        width: 16px;
       }
     }
     .details-container {
@@ -87,7 +87,7 @@
         }
       }
       .description {
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 24px;
       }
     }

@@ -73,11 +73,35 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 750px) {
   .carousel-container {
+    .react-multi-carousel-track {
+      margin-top: 60px;
+    }
+    .slide-item {
+      height: 488px;
+      margin-right: unset;
+      .projectThumbnail {
+        height: 200px;
+      }
+      .contentWrapper {
+        h5 {
+          font-size: 20px;
+        }
+        div {
+          font-size: 12px;
+        }
+        a {
+          font-size: 16px;
+          height: 40px;
+          width: 130px;
+        }
+      }
+    }
     .react-multiple-carousel__arrow {
       min-width: 32px;
       min-height: 32px;
+      margin-bottom: 513px;
       &::before {
         font-size: 14px;
       }
