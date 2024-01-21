@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VinitaPortfolio/static/css/main.e2d5454e.css",
-    "main.js": "/VinitaPortfolio/static/js/main.edd47478.js",
+    "main.js": "/VinitaPortfolio/static/js/main.f6b2168a.js",
     "static/media/portfolio.png": "/VinitaPortfolio/static/media/portfolio.37e7c164cca755314cf4.png",
     "static/media/tag.png": "/VinitaPortfolio/static/media/tag.04eae6faff772b4bdd8d.png",
     "static/media/bright-smiles.png": "/VinitaPortfolio/static/media/bright-smiles.322176efc2bfcd062aca.png",
@@ -14,10 +14,10 @@
     "static/media/landing-background.svg": "/VinitaPortfolio/static/media/landing-background.b9bd47382d1f6cae3f40.svg",
     "static/media/title-icon.svg": "/VinitaPortfolio/static/media/title-icon.75332a54d424fda865846d929cf7d7b2.svg",
     "main.e2d5454e.css.map": "/VinitaPortfolio/static/css/main.e2d5454e.css.map",
-    "main.edd47478.js.map": "/VinitaPortfolio/static/js/main.edd47478.js.map"
+    "main.f6b2168a.js.map": "/VinitaPortfolio/static/js/main.f6b2168a.js.map"
   },
   "entrypoints": [
     "static/css/main.e2d5454e.css",
-    "static/js/main.edd47478.js"
+    "static/js/main.f6b2168a.js"
   ]
 }
