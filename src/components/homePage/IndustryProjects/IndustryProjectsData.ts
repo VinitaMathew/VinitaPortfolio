@@ -13,13 +13,16 @@ export const IndustryProjectsData = [
   {
     image: IndustryProject2,
     title: "Chatbot Developement",
+    content: "Coming soon!",
   },
   {
     image: IndustryProject3,
     title: "Knowledge Management",
+    content: "Coming soon!",
   },
   {
     image: IndustryProject4,
     title: "Internal HR inbox portal",
+    content: "Coming soon!",
   },
 ];
