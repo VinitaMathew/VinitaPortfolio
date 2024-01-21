@@ -154,7 +154,7 @@ export default function Menu(props: any) {
                   Contact
                 </li>
               )}
-              <li
+              {/* <li
                 className="nav-link"
                 onClick={() => {
                   handleResumeClick();
@@ -162,7 +162,7 @@ export default function Menu(props: any) {
                 }}
               >
                 Resume
-              </li>
+              </li> */}
             </ul>
           </div>
         ) : null}
