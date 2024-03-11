@@ -1,6 +1,6 @@
 .menu-container-desktop,
 .menu-container-mobile {
-  padding-top: 78px;
+  padding-top: 60px;
   text-align: right;
   z-index: 1000;
   width: 100%;
@@ -10,9 +10,10 @@
   left: 50%;
   transform: translateX(-50%);
   transition: padding 0.3s ease-in-out;
+  background-color: #fffdf4;
   .common-container {
     display: flex;
-    max-width: 1216px;
+    max-width: 1300px;
     justify-content: space-between;
     margin: auto;
     padding-inline: 25px;
@@ -46,7 +47,7 @@
       margin: unset;
       .nav-link {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         list-style: none;
         cursor: pointer;
       }
@@ -81,7 +82,6 @@
       .nav-link {
         .active {
           position: relative;
-          font-weight: 700;
         }
       }
     }
@@ -120,9 +120,6 @@
         width: 100%;
         display: flex;
         padding: 24px 0px;
-        .active {
-          font-weight: 700;
-        }
       }
     }
   }
