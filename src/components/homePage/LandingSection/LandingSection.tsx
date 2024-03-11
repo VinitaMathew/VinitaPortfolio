@@ -16,6 +16,10 @@ export default function LandingSection(props: any) {
             to crafting visually appealing and seamlessly functional
             experiences.
           </div>
+          <h6>
+            <span style={{ color: "#FFCC00" }}>#</span> I'm here to turn your
+            ideas into reality!
+          </h6>
           <div className="graph__wrapper">
             <svg
               width="1000"
