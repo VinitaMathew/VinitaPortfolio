@@ -1,5 +1,5 @@
 .landing-section {
-  min-height: 700px;
+  min-height: 610px;
   background-color: #fffdf4;
   margin-top: 125px;
   .landing-page-content {
@@ -114,34 +114,50 @@
         }
       }
 
-      .path {
-        stroke-dasharray: 1367;
-        stroke-dashoffset: 1437;
-        animation: dash 3s linear forwards;
-        animation-iteration-count: 1;
-        animation-delay: 1s;
-      }
-      @keyframes dash {
-        to {
-          stroke-dashoffset: 0;
+      .design-to-code {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        font-family: "Roboto Mono";
+        letter-spacing: 5px;
+        .path {
+          stroke-dasharray: 1367;
+          stroke-dashoffset: 1437;
+          animation: dash 3s linear forwards;
+          animation-iteration-count: 1;
+          animation-delay: 1s;
         }
-      }
-      .dashed {
-        stroke-dasharray: 5, 12;
-      }
-      #arrow {
-        animation: arrow 2s linear forwards;
-        opacity: 0;
-      }
-      @keyframes arrow {
-        to {
-          opacity: 1;
+        @keyframes dash {
+          to {
+            stroke-dashoffset: 0;
+          }
         }
-      }
-      .ifrm {
-        border: none;
-        width: 100%;
-        margin-top: 50px;
+        .dashed {
+          stroke-dasharray: 5, 12;
+        }
+        #arrow {
+          animation: arrow 2s linear forwards;
+          opacity: 0;
+        }
+        @keyframes arrow {
+          to {
+            opacity: 1;
+          }
+        }
+        .ifrm {
+          border: none;
+          width: 100%;
+          margin-top: 50px;
+        }
+
+        .design-text {
+          margin-top: -15px;
+        }
+        .code-text {
+          align-self: end;
+          margin-top: -130px;
+          margin-right: -55px;
+        }
       }
     }
   }

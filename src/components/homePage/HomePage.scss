@@ -8,18 +8,10 @@
   .section-heading {
     font-family: "Playfair Display ";
     font-weight: 700;
-    font-size: 40px;
+    font-size: 32px;
     position: relative;
     margin-left: 20px;
-    &:before {
-      border-left: 8px solid #6fa9ff;
-      bottom: 0;
-      content: "";
-      height: 38px;
-      left: -25px;
-      position: absolute;
-      top: 10%;
-    }
+    text-align: center;
   }
 }
 
