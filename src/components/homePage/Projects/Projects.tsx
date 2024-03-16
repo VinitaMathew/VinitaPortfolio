@@ -10,7 +10,6 @@ const Projects = React.forwardRef((props, projectsRef: any) => {
         {projectsData.map((project, index) => (
           <div key={index} className="project-item">
             <div className="contentWrapper">
-              <span className="animate-section"></span>
               <img
                 className="projectThumbnail"
                 src={project.imageUrl}
