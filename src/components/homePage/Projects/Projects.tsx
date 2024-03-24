@@ -8,7 +8,12 @@ const Projects = React.forwardRef((props, projectsRef: any) => {
       <h2 className="section-heading">Projects I’ve worked on</h2>
       <div className="projects-list-wrapper">
         {projectsData.map((project, index) => (
-          <div key={index} className="project-item">
+          <a
+            href={project.link}
+            target="_blank"
+            key={index}
+            className="project-item"
+          >
             <div className="contentWrapper">
               <img
                 className="projectThumbnail"
@@ -24,11 +29,9 @@ const Projects = React.forwardRef((props, projectsRef: any) => {
               </div>
               <div className="desc">{project.desciption}</div>
               <h5>{project.title}</h5>
-              {/* <a href={project.link} target="_blank">
-                Live link
-              </a> */}
+              <div className="open-link-text">Open project link</div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>
