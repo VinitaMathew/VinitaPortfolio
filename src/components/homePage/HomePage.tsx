@@ -15,8 +15,8 @@ export default function HomePage(props: any) {
         contactClick={props.contactClick}
       />
       <Projects ref={props.projectRef} />
-      <WorkExperience />
       <IndustryProjects />
+      <WorkExperience />
       <Skills />
       <Contact ref={props.contactRef} />
     </div>

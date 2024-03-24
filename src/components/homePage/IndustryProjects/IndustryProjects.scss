@@ -1,11 +1,9 @@
 .industry-projects-container {
+  .section-heading {
+    min-width: 400px;
+    margin-inline: 50px;
+  }
   .industry-projects-list {
-    list-style: none;
-    display: flex;
-    gap: 16px;
-    padding: unset;
-    margin-top: 54px;
-    flex-wrap: wrap;
     .project-item {
       border-radius: 8px;
       border: 1px solid #e8e8e8;

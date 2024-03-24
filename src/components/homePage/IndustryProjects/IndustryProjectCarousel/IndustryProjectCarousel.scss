@@ -1,0 +1,74 @@
+.industry-projects-list {
+  .carousel-container {
+    margin: 0 auto;
+    .react-multi-carousel-track {
+      margin-top: 100px;
+    }
+    .react-multiple-carousel__arrow {
+      background: white;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+      z-index: 10;
+      margin-bottom: 675px;
+      min-width: 40px;
+      min-height: 40px;
+      border-color: #e8e8e8;
+      border-width: 1px;
+      border-style: solid;
+      cursor: pointer;
+      &::before {
+        color: black;
+      }
+    }
+    .react-multiple-carousel__arrow:disabled {
+      cursor: not-allowed;
+    }
+    .react-multiple-carousel__arrow--left {
+      right: calc(4% + 65px);
+      left: unset;
+    }
+  }
+
+  .project-item {
+    height: 628px;
+    border-radius: 8px;
+    margin-right: 32px; /* Adjust this value to set the gap between slides */
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .industry-projects-list {
+    .carousel-container {
+      .react-multi-carousel-track {
+        margin-top: 60px;
+      }
+      .slide-item {
+        height: 488px;
+        margin-right: unset;
+        .projectThumbnail {
+          height: 200px;
+        }
+        .contentWrapper {
+          h5 {
+            font-size: 20px;
+          }
+          div {
+            font-size: 12px;
+          }
+          a {
+            font-size: 16px;
+            height: 40px;
+            width: 130px;
+          }
+        }
+      }
+      .react-multiple-carousel__arrow {
+        min-width: 32px;
+        min-height: 32px;
+        margin-bottom: 513px;
+        &::before {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
