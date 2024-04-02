@@ -1,6 +1,6 @@
 .industry-projects-list {
   max-width: 60%;
-  margin: 0px 0px 0px auto;
+  margin: 0px 0px 80px auto;
   text-align: right;
   .carousel-container {
     margin: 0 auto;
@@ -9,18 +9,17 @@
       margin-bottom: 88px;
     }
     .react-multiple-carousel__arrow {
-      background: white;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+      background: unset;
       z-index: 10;
       margin-bottom: 675px;
       min-width: 40px;
       min-height: 40px;
-      border-color: #e8e8e8;
-      border-width: 1px;
+      border-color: #728e70;
+      border-width: 2.3px;
       border-style: solid;
       cursor: pointer;
       &::before {
-        color: black;
+        color: #728e70;
       }
     }
     .react-multiple-carousel__arrow:disabled {
@@ -39,7 +38,6 @@
   }
 
   .project-item {
-    height: 628px;
     border-radius: 8px;
     margin-right: 32px; /* Adjust this value to set the gap between slides */
   }

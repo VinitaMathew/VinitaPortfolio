@@ -16,7 +16,7 @@ export default function HomePage(props: any) {
       />
       <Projects ref={props.projectRef} />
       <IndustryProjects />
-      <WorkExperience />
+      {/* <WorkExperience /> */}
       <Skills />
       <Contact ref={props.contactRef} />
     </div>

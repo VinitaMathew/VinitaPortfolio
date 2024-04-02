@@ -5,7 +5,7 @@ import "./IndustryProjectCarousel.scss";
 import { IndustryProjectsData } from "../IndustryProjectsData";
 import IndustryProjectsPopUp from "../IndustryProjectsPopUp/IndustryProjectsPopUp";
 
-const arrowImg = require("../../../../assets/arrow-right-black.png");
+const arrowImg = require("../../../../assets/arrow-right-white.png");
 
 export default function IndustryProjectCarousel() {
   const [modalProps, setModalProps] = useState({});

@@ -4,6 +4,7 @@ const Skill3 = require("../../../assets/skill-3.png");
 const Skill4 = require("../../../assets/skill-4.png");
 const Skill5 = require("../../../assets/skill-5.png");
 const Skill6 = require("../../../assets/skill-6.png");
+const Skill7 = require("../../../assets/skill-7.png");
 
 export const skillsData = [
   {
@@ -29,5 +30,13 @@ export const skillsData = [
   {
     image: Skill6,
     title: "Sharepoint framework (SPFx)",
+  },
+  {
+    image: Skill7,
+    title: "Figma",
+  },
+  {
+    image: Skill7,
+    title: "Amazon Web Services - AWS",
   },
 ];
