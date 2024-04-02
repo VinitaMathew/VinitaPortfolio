@@ -1,8 +1,12 @@
 .industry-projects-list {
+  max-width: 60%;
+  margin: 0px 0px 0px auto;
+  text-align: right;
   .carousel-container {
     margin: 0 auto;
     .react-multi-carousel-track {
       margin-top: 100px;
+      margin-bottom: 88px;
     }
     .react-multiple-carousel__arrow {
       background: white;
@@ -23,8 +27,14 @@
       cursor: not-allowed;
     }
     .react-multiple-carousel__arrow--left {
-      right: calc(4% + 65px);
-      left: unset;
+      right: unset;
+      left: 35px;
+      top: 460px;
+    }
+    .react-multiple-carousel__arrow--right {
+      right: unset;
+      left: 90px;
+      top: 460px;
     }
   }
 

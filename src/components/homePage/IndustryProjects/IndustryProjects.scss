@@ -2,6 +2,10 @@
   .section-heading {
     min-width: 400px;
     margin-inline: 50px;
+    position: absolute !important;
+    left: 0;
+    margin-top: 200px;
+    max-width: 300px;
   }
   .industry-projects-list {
     .project-item {
