@@ -1,0 +1,22 @@
+.about-container {
+  display: flex;
+  gap: 153px;
+  margin-top: 85px;
+  justify-content: end;
+  .about-content {
+    margin-left: 112px;
+    max-width: 622px;
+    .section-heading {
+      text-align: unset;
+      margin-left: unset;
+      margin-bottom: 36px;
+    }
+    .content-text {
+      font-size: 18px;
+    }
+  }
+  .about-image {
+    width: auto;
+    height: 615px;
+  }
+}

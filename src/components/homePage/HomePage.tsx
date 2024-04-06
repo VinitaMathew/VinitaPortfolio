@@ -6,6 +6,7 @@ import Skills from "./Skills/Skills";
 import "./HomePage.scss";
 import WorkExperience from "./WorkExperience/WorkExperience";
 import Contact from "./Contact/Contact";
+import About from "./About/About";
 
 export default function HomePage(props: any) {
   return (
@@ -18,6 +19,7 @@ export default function HomePage(props: any) {
       <IndustryProjects />
       {/* <WorkExperience /> */}
       <Skills />
+      <About />
       <Contact ref={props.contactRef} />
     </div>
   );
