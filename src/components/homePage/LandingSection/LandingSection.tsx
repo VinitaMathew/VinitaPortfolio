@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./LandingSection.scss";
 
 //const TitleIcon = require("../../../assets/title-icon.svg").default;
@@ -23,8 +23,7 @@ export default function LandingSection(props: any) {
           <div className="design-to-code">
             <div className="graph__wrapper">
               <svg
-                width="1000"
-                height="143"
+                width="100%"
                 viewBox="0 0 947 143"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,9 +48,9 @@ export default function LandingSection(props: any) {
                   </animateMotion>
                 </polyline>
               </svg>
+              <span className="design-text">DESIGN</span>
+              <span className="code-text">CODE</span>
             </div>
-            <span className="design-text">DESIGN</span>
-            <span className="code-text">CODE</span>
           </div>
         </div>
       </div>

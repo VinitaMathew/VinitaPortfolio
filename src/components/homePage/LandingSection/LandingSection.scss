@@ -120,6 +120,9 @@
         text-align: start;
         font-family: "Roboto Mono";
         letter-spacing: 5px;
+        width: 85%;
+        margin: auto;
+        min-height: 100px;
         .path {
           stroke-dasharray: 1367;
           stroke-dashoffset: 1437;
@@ -149,14 +152,24 @@
           width: 100%;
           margin-top: 50px;
         }
-
-        .design-text {
-          margin-top: -15px;
-        }
-        .code-text {
-          align-self: end;
-          margin-top: -130px;
-          margin-right: -55px;
+        .graph__wrapper {
+          position: relative;
+          svg {
+            overflow: visible;
+          }
+          .design-text {
+            margin-top: -15px;
+            position: absolute;
+            left: -23px;
+            bottom: -12px;
+          }
+          .code-text {
+            align-self: end;
+            margin-right: -55px;
+            position: absolute;
+            right: 0;
+            top: 23px;
+          }
         }
       }
     }
@@ -165,12 +178,13 @@
 @media only screen and (max-width: 750px) {
   .landing-section {
     background-image: none;
+    margin-top: unset;
     min-height: unset;
     .landing-page-content {
       .heading-container {
         width: 75%;
         margin: 35px 35px 20px 35px;
-        font-size: 28px;
+        font-size: 40px;
         line-height: 125%;
       }
       .details-container {
@@ -178,9 +192,20 @@
         width: 90%;
         margin: auto;
         .description {
-          font-size: 14px;
+          font-size: 18px;
+          padding-inline: 21px;
           margin-top: 24px;
         }
+        h6 {
+          margin-bottom: 40px;
+          font-size: 10px;
+        }
+      }
+    }
+    .graph__wrapper {
+      .design-text,
+      .code-text {
+        font-size: 12px;
       }
     }
   }
