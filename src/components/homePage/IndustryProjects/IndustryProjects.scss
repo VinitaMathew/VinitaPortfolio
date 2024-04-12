@@ -67,17 +67,26 @@
 
 @media only screen and (max-width: 750px) {
   .industry-projects-container {
+    .section-heading {
+      position: relative !important;
+      min-width: unset;
+      margin-top: 75px;
+      margin-bottom: 0px;
+    }
     .industry-projects-list {
       flex-direction: column;
+      margin: auto;
+      margin-bottom: 60px;
       .project-item {
-        height: 235px;
-        width: 100%;
+        height: 290px;
+        width: 93%;
         .project-thumbnail {
-          height: 115px;
-          width: 140px;
+          height: 165px;
+          width: auto;
+          margin-bottom: 45px;
         }
         .content-wrapper {
-          margin-left: 132px;
+          width: 90%;
           .title {
             font-size: 14px;
           }

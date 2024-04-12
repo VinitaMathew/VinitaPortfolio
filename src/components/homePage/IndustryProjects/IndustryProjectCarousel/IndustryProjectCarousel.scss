@@ -7,6 +7,7 @@
     .react-multi-carousel-track {
       margin-top: 100px;
       margin-bottom: 88px;
+      margin-inline: 15px;
     }
     .react-multiple-carousel__arrow {
       background: unset;
@@ -45,6 +46,7 @@
 
 @media only screen and (max-width: 750px) {
   .industry-projects-list {
+    max-width: unset;
     .carousel-container {
       .react-multi-carousel-track {
         margin-top: 60px;
@@ -76,6 +78,19 @@
         &::before {
           font-size: 14px;
         }
+      }
+      .react-multiple-carousel__arrow--left {
+        bottom: 24px;
+        margin-bottom: unset;
+        top: unset;
+        left: 40%;
+      }
+      .react-multiple-carousel__arrow--right {
+        bottom: 24px;
+        margin-bottom: unset;
+        top: unset;
+        left: unset;
+        right: 40%;
       }
     }
   }

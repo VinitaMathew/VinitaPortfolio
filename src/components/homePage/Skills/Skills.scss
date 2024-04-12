@@ -35,19 +35,32 @@
 
 @media only screen and (max-width: 750px) {
   .skills-container {
+    height: unset;
     .skills-wrapper {
       margin-top: 38px;
       gap: 15px;
       .skill-item {
-        height: 210px;
+        flex-direction: row;
         margin: auto;
+        height: unset;
+        gap: 20px;
+        border-bottom: 1px solid #728e70;
         .image {
           margin-block: 23px;
+          width: 65px;
+          height: 65px;
         }
         .title {
           font-size: 18px;
+          text-align: left;
         }
       }
+      // .skill-item:nth-child(even) {
+      //   flex-direction: row-reverse;
+      //   .title {
+      //     text-align: right;
+      //   }
+      // }
     }
   }
 }

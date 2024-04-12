@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+import { calculateExperience } from "../../../utils";
 
 const AboutImg = require("../../../assets/about.png");
 
@@ -9,9 +10,10 @@ export default function About() {
       <div className="about-content">
         <div className="section-heading">A little about me :)</div>
         <div className="content-text">
-          Hello! I'm Vinita, a React developer with over 4 years of experience
-          in the software development industry. Born and raised in Bangalore, I
-          bring a blend of cultural richness from my Kerala roots. <br />
+          Hello! I'm Vinita, a React developer with {calculateExperience()}{" "}
+          years of experience in the software development industry. Born and
+          raised in Bangalore, I bring a blend of cultural richness from my
+          Kerala roots. <br />
           <br /> My journey in development began with a fascination for
           technology and a desire to create impactful digital experiences.
           Specializing in React, I excel in crafting user-friendly and scalable

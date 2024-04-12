@@ -181,11 +181,12 @@
     margin-top: unset;
     min-height: unset;
     .landing-page-content {
+      margin-top: 80px;
       .heading-container {
         width: 75%;
-        margin: 35px 35px 20px 35px;
         font-size: 40px;
         line-height: 125%;
+        margin-bottom: 45px;
       }
       .details-container {
         flex-direction: column;
@@ -195,10 +196,14 @@
           font-size: 18px;
           padding-inline: 21px;
           margin-top: 24px;
+          margin-bottom: 65px;
         }
         h6 {
           margin-bottom: 40px;
           font-size: 10px;
+        }
+        .design-to-code {
+          margin-bottom: 70px;
         }
       }
     }
@@ -206,6 +211,9 @@
       .design-text,
       .code-text {
         font-size: 12px;
+      }
+      .code-text {
+        right: 15px !important;
       }
     }
   }
