@@ -1,5 +1,5 @@
 .skills-container {
-  height: 820px;
+  height: 860px;
   .skills-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -40,11 +40,10 @@
       margin-top: 38px;
       gap: 15px;
       .skill-item {
-        flex-direction: row;
         margin: auto;
         height: unset;
         gap: 20px;
-        border-bottom: 1px solid #728e70;
+        max-width: 160px;
         .image {
           margin-block: 23px;
           width: 65px;
@@ -52,15 +51,8 @@
         }
         .title {
           font-size: 18px;
-          text-align: left;
         }
       }
-      // .skill-item:nth-child(even) {
-      //   flex-direction: row-reverse;
-      //   .title {
-      //     text-align: right;
-      //   }
-      // }
     }
   }
 }

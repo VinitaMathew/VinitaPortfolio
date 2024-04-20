@@ -5,27 +5,12 @@ const Skill4 = require("../../../assets/skill-4.png");
 const Skill5 = require("../../../assets/skill-5.png");
 const Skill6 = require("../../../assets/skill-6.png");
 const Skill7 = require("../../../assets/skill-7.png");
+const Skill8 = require("../../../assets/skill-8.png");
 
 export const skillsData = [
   {
     image: Skill1,
-    title: "Build react web applications",
-  },
-  {
-    image: Skill2,
-    title: "Version control and collaboration",
-  },
-  {
-    image: Skill3,
-    title: "HTML5",
-  },
-  {
-    image: Skill4,
-    title: "CSS/SCSS",
-  },
-  {
-    image: Skill5,
-    title: "Javascript/Typescript",
+    title: "Build ReactJS web applications",
   },
   {
     image: Skill6,
@@ -36,7 +21,23 @@ export const skillsData = [
     title: "Figma",
   },
   {
-    image: Skill7,
+    image: Skill5,
+    title: "Javascript/Typescript",
+  },
+  {
+    image: Skill3,
+    title: "HTML5",
+  },
+  {
+    image: Skill4,
+    title: "CSS/SCSS",
+  },
+  {
+    image: Skill2,
+    title: "Version control and collaboration",
+  },
+  {
+    image: Skill8,
     title: "Amazon Web Services - AWS",
   },
 ];

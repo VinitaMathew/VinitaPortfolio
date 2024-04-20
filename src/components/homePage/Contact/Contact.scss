@@ -15,8 +15,13 @@
 @media only screen and (max-width: 750px) {
   .contact-container {
     margin-bottom: 50px;
+    margin-inline: 24px;
+    .section-heading {
+      margin-left: 24px;
+    }
     .contact-wrapper {
-      font-size: 12px;
+      font-size: 18px;
+      text-align: left;
       .links {
         font-size: 18px;
         margin-block: 15px;

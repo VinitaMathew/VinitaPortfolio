@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useInView } from "react-intersection-observer";
 import "./IndustryProjects.scss";
 import IndustryProjectCarousel from "./IndustryProjectCarousel/IndustryProjectCarousel";
 
@@ -6,8 +7,19 @@ export default function IndustryProjects() {
   const [isMobile] = useState(
     window.matchMedia("only screen and (max-width:750px)").matches
   );
+  const [ref, inView] = useInView({
+    threshold: 0.01,
+    triggerOnce: true,
+  });
   return (
-    <div className="industry-projects-container">
+    <div
+      ref={ref}
+      className={
+        inView
+          ? "slide-up industry-projects-container"
+          : "hidden industry-projects-container"
+      }
+    >
       <h2 className="section-heading">
         {isMobile
           ? "Projects under NDA"
