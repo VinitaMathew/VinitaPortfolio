@@ -37,6 +37,7 @@ export default function IndustryProjectCarousel() {
           dangerouslySetInnerHTML={{ __html: project.content }}
         />
       ),
+      modalThumbnail: project.modalThumbnail,
       handleCancelBtnClick: () => setIsPopupOpen(false),
     });
     setIsPopupOpen(true);

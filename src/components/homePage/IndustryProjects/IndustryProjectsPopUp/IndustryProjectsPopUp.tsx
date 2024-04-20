@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Modal } from "office-ui-fabric-react";
 import "./IndustryProjectsPopUp.scss";
 
+const cancelIcon = require("../../../../assets/cancel-icon.png");
+
 export const IndustryProjectsPopUp = (props: any) => {
   const { isModalOpened } = props;
   const [isModalOpenState, setIsModelOpenState] = useState(false);
@@ -21,18 +23,28 @@ export const IndustryProjectsPopUp = (props: any) => {
       isOpen={isModalOpenState}
       containerClassName="modalContainer"
       styles={{
-        main: { width: props.width ? props.width : "800px", height: "769px" },
+        main: {
+          width: props.width ? props.width : "800px",
+          height: "785px",
+        },
       }}
     >
-      <button
-        className="cancelButton"
-        onClick={modalData.handleCancelBtnClick}
-        type="button"
+      <div
+        className="background-image"
+        style={{
+          backgroundImage: `url(${modalData.modalThumbnail})`,
+        }}
       >
-        X
-      </button>
-      <div className="modalHeading">{modalData.heading}</div>
-      {modalData.body ? modalData.body : null}
+        <button
+          className="cancelButton"
+          onClick={modalData.handleCancelBtnClick}
+          type="button"
+        >
+          <img alt="close pop up" src={cancelIcon}></img>
+        </button>
+        <div className="modalHeading">{modalData.heading}</div>
+        {modalData.body ? modalData.body : null}
+      </div>
     </Modal>
   ) : null;
 };
