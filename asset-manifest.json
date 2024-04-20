@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/VinitaPortfolio/static/css/main.e2d5454e.css",
-    "main.js": "/VinitaPortfolio/static/js/main.f6b2168a.js",
-    "static/media/portfolio.png": "/VinitaPortfolio/static/media/portfolio.37e7c164cca755314cf4.png",
-    "static/media/tag.png": "/VinitaPortfolio/static/media/tag.04eae6faff772b4bdd8d.png",
+    "main.css": "/VinitaPortfolio/static/css/main.959d5d3c.css",
+    "main.js": "/VinitaPortfolio/static/js/main.7ad20b52.js",
+    "static/media/about.png": "/VinitaPortfolio/static/media/about.436826b17bb0014375e2.png",
+    "static/media/ModalThumbnail-2.png": "/VinitaPortfolio/static/media/ModalThumbnail-2.5c2d14da47f4a878b3d1.png",
+    "static/media/ModalThumbnail-3.png": "/VinitaPortfolio/static/media/ModalThumbnail-3.4a596b9a4fa6b2b08cfc.png",
+    "static/media/ModalThumbnail-1.png": "/VinitaPortfolio/static/media/ModalThumbnail-1.8a5ccf97b47afd7bdd91.png",
+    "static/media/ModalThumbnail-4.png": "/VinitaPortfolio/static/media/ModalThumbnail-4.3aa7a041d5fa5edf95ca.png",
     "static/media/bright-smiles.png": "/VinitaPortfolio/static/media/bright-smiles.322176efc2bfcd062aca.png",
+    "static/media/tag.png": "/VinitaPortfolio/static/media/tag.44267f8b7d767c389615.png",
+    "static/media/portfolio.png": "/VinitaPortfolio/static/media/portfolio.e8f0efb1ecee43abc8c9.png",
+    "static/media/IndustryProjects-3.png": "/VinitaPortfolio/static/media/IndustryProjects-3.e4210cbe90f805581aa8.png",
+    "static/media/IndustryProjects-2.png": "/VinitaPortfolio/static/media/IndustryProjects-2.90fdf9634d27910cf4f8.png",
+    "static/media/IndustryProjects-1.png": "/VinitaPortfolio/static/media/IndustryProjects-1.a6b6e67aec3cd7666315.png",
+    "static/media/IndustryProjects-4.png": "/VinitaPortfolio/static/media/IndustryProjects-4.6b4e0dce298ff6264d3d.png",
     "static/media/revicons.eot": "/VinitaPortfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/VinitaPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/IndustryProjects-2.png": "/VinitaPortfolio/static/media/IndustryProjects-2.04b4e35ed41b953a0369.png",
-    "static/media/IndustryProjects-3.png": "/VinitaPortfolio/static/media/IndustryProjects-3.e3b196194da86f0aee86.png",
     "static/media/revicons.woff": "/VinitaPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/VinitaPortfolio/index.html",
-    "static/media/landing-background.svg": "/VinitaPortfolio/static/media/landing-background.b9bd47382d1f6cae3f40.svg",
-    "static/media/title-icon.svg": "/VinitaPortfolio/static/media/title-icon.75332a54d424fda865846d929cf7d7b2.svg",
-    "main.e2d5454e.css.map": "/VinitaPortfolio/static/css/main.e2d5454e.css.map",
-    "main.f6b2168a.js.map": "/VinitaPortfolio/static/js/main.f6b2168a.js.map"
+    "main.959d5d3c.css.map": "/VinitaPortfolio/static/css/main.959d5d3c.css.map",
+    "main.7ad20b52.js.map": "/VinitaPortfolio/static/js/main.7ad20b52.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2d5454e.css",
-    "static/js/main.f6b2168a.js"
+    "static/css/main.959d5d3c.css",
+    "static/js/main.7ad20b52.js"
   ]
 }
