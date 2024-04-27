@@ -20,13 +20,15 @@ export default function IndustryProjects() {
           : "hidden industry-projects-container"
       }
     >
-      <h2 className="section-heading">
-        {isMobile
-          ? "Projects under NDA"
-          : "Projects under Non-Disclosure Agreement"}
-      </h2>
-      <div className="industry-projects-list">
-        <IndustryProjectCarousel />
+      <div className="industry-wrapper">
+        <h2 className="section-heading">
+          {isMobile
+            ? "Projects under NDA"
+            : "Projects under Non-Disclosure Agreement"}
+        </h2>
+        <div className="industry-projects-list">
+          <IndustryProjectCarousel />
+        </div>
       </div>
     </div>
   );

@@ -13,17 +13,17 @@ export default function IndustryProjectCarousel() {
 
   const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 1500 },
       items: 2.13,
       partialVisibilityGutter: 100, // Adjust this value to control the amount of next and previous images shown
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
+      breakpoint: { max: 1500, min: 1370 },
+      items: 2,
       partialVisibilityGutter: 80,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 1370, min: 0 },
       items: 1,
       partialVisibilityGutter: 60,
     },
