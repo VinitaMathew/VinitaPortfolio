@@ -44,27 +44,29 @@ export default function IndustryProjectCarousel() {
   };
 
   return (
-    <Carousel
-      renderArrowsWhenDisabled={true}
-      responsive={responsive}
-      containerClass="carousel-container"
-    >
-      {IndustryProjectsData.map((project, index) => (
-        <div
-          key={index}
-          className="project-item"
-          onClick={() => handleProjectClick(project)}
-        >
-          <img alt="" src={project.image} className="project-thumbnail" />
-          <div className="content-wrapper">
-            <div className="title">{project.title}</div>
-            <button className="project-button">
-              <img alt="open project details" src={arrowImg}></img>
-            </button>
+    <>
+      <Carousel
+        renderArrowsWhenDisabled={true}
+        responsive={responsive}
+        containerClass="carousel-container"
+      >
+        {IndustryProjectsData.map((project, index) => (
+          <div
+            key={index}
+            className="project-item"
+            onClick={() => handleProjectClick(project)}
+          >
+            <img alt="" src={project.image} className="project-thumbnail" />
+            <div className="content-wrapper">
+              <div className="title">{project.title}</div>
+              <button className="project-button">
+                <img alt="open project details" src={arrowImg}></img>
+              </button>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </Carousel>
       <IndustryProjectsPopUp isModalOpened={isPopupOpen} {...modalProps} />
-    </Carousel>
+    </>
   );
 }

@@ -16,11 +16,11 @@
     width: fit-content;
     margin-inline: auto;
     &:before {
-      height: 60px;
-      width: 20px;
+      height: 70px;
+      width: 38px;
       background-repeat: no-repeat;
-      left: -28px;
-      background-image: url(../../assets/section-heading-img.png);
+      left: -40px;
+      background-image: url(../../assets/section-heading-img.svg);
       bottom: 0;
       content: "";
       position: absolute;
@@ -35,7 +35,9 @@
     .section-heading {
       font-size: 24px;
       &:before {
-        height: 33px;
+        height: 42px;
+        left: -30px;
+        background-image: url(../../assets/section-heading-img-mobile.svg);
       }
     }
   }

@@ -12,9 +12,9 @@ export default function LandingSection(props: any) {
         </div>
         <div className="details-container">
           <div className="description">
-            Greetings! I'm Vinita Mathew, a passionate React developer dedicated
-            to crafting visually appealing and seamlessly functional
-            experiences.
+            Greetings! I'm <b style={{ color: "#58af89" }}>Vinita Mathew</b>, a
+            passionate React developer dedicated to crafting visually appealing
+            and seamlessly functional experiences.
           </div>
           <h6>
             <span style={{ color: "#FFCC00" }}>#</span> I'm here to turn your
