@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VinitaPortfolio/static/css/main.959d5d3c.css",
-    "main.js": "/VinitaPortfolio/static/js/main.7ad20b52.js",
+    "main.css": "/VinitaPortfolio/static/css/main.ca63b0b0.css",
+    "main.js": "/VinitaPortfolio/static/js/main.bb98ba03.js",
     "static/media/about.png": "/VinitaPortfolio/static/media/about.436826b17bb0014375e2.png",
     "static/media/ModalThumbnail-2.png": "/VinitaPortfolio/static/media/ModalThumbnail-2.5c2d14da47f4a878b3d1.png",
     "static/media/ModalThumbnail-3.png": "/VinitaPortfolio/static/media/ModalThumbnail-3.4a596b9a4fa6b2b08cfc.png",
@@ -18,11 +18,13 @@
     "static/media/revicons.ttf": "/VinitaPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/VinitaPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/VinitaPortfolio/index.html",
-    "main.959d5d3c.css.map": "/VinitaPortfolio/static/css/main.959d5d3c.css.map",
-    "main.7ad20b52.js.map": "/VinitaPortfolio/static/js/main.7ad20b52.js.map"
+    "static/media/section-heading-img.svg": "/VinitaPortfolio/static/media/section-heading-img.ae5a8c3ab26192002277.svg",
+    "static/media/section-heading-img-mobile.svg": "/VinitaPortfolio/static/media/section-heading-img-mobile.8df13d0ceba780cee494.svg",
+    "main.ca63b0b0.css.map": "/VinitaPortfolio/static/css/main.ca63b0b0.css.map",
+    "main.bb98ba03.js.map": "/VinitaPortfolio/static/js/main.bb98ba03.js.map"
   },
   "entrypoints": [
-    "static/css/main.959d5d3c.css",
-    "static/js/main.7ad20b52.js"
+    "static/css/main.ca63b0b0.css",
+    "static/js/main.bb98ba03.js"
   ]
 }
