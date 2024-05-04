@@ -12,6 +12,9 @@
       max-width: 300px;
       margin-left: 110px !important;
       text-align: left !important;
+      &:before {
+        top: 10%;
+      }
     }
     .industry-projects-list {
       .project-item {
