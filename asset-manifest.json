@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/VinitaPortfolio/static/css/main.9f4bac49.css",
-    "main.js": "/VinitaPortfolio/static/js/main.c0efcccf.js",
+    "main.js": "/VinitaPortfolio/static/js/main.302216ca.js",
     "static/media/about.png": "/VinitaPortfolio/static/media/about.436826b17bb0014375e2.png",
     "static/media/ModalThumbnail-2.png": "/VinitaPortfolio/static/media/ModalThumbnail-2.e2f8f894528012383d91.png",
-    "static/media/bright-smiles.png": "/VinitaPortfolio/static/media/bright-smiles.322176efc2bfcd062aca.png",
     "static/media/ModalThumbnail-3.png": "/VinitaPortfolio/static/media/ModalThumbnail-3.443e58ae8b64abd34d86.png",
     "static/media/tag.png": "/VinitaPortfolio/static/media/tag.44267f8b7d767c389615.png",
+    "static/media/shopping-website.png": "/VinitaPortfolio/static/media/shopping-website.528b11eaf2c8ea166ad4.png",
     "static/media/ModalThumbnail-1.png": "/VinitaPortfolio/static/media/ModalThumbnail-1.c63894227e86d6dd036b.png",
     "static/media/ModalThumbnail-4.png": "/VinitaPortfolio/static/media/ModalThumbnail-4.eb06add10b86c1a5a684.png",
     "static/media/portfolio.png": "/VinitaPortfolio/static/media/portfolio.e8f0efb1ecee43abc8c9.png",
@@ -21,10 +21,10 @@
     "static/media/section-heading-img.svg": "/VinitaPortfolio/static/media/section-heading-img.ae5a8c3ab26192002277.svg",
     "static/media/section-heading-img-mobile.svg": "/VinitaPortfolio/static/media/section-heading-img-mobile.8df13d0ceba780cee494.svg",
     "main.9f4bac49.css.map": "/VinitaPortfolio/static/css/main.9f4bac49.css.map",
-    "main.c0efcccf.js.map": "/VinitaPortfolio/static/js/main.c0efcccf.js.map"
+    "main.302216ca.js.map": "/VinitaPortfolio/static/js/main.302216ca.js.map"
   },
   "entrypoints": [
     "static/css/main.9f4bac49.css",
-    "static/js/main.c0efcccf.js"
+    "static/js/main.302216ca.js"
   ]
 }
